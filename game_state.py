@@ -1,11 +1,7 @@
 """
 game_state.py
 
-This file contains a class representing an Untitled Dragon Game state. You should make use of this class in your solver.
-
-COMP3702 2021 Assignment 2 Support Code
-
-Last updated by njc 27/07/21
+This file contains a class representing an Untitled Dragon Game state.
 """
 
 
@@ -13,10 +9,6 @@ class GameState:
     """
     Instance of an Untitled Dragon Game state. row and col represent the current player position. gem_status is 1 for
     each collected gem, and 0 for each remaining gem.
-
-    You may use this class and its functions. You may add your own code to this class (e.g. get_successors function,
-    get_heuristic function, etc), but should avoid removing or renaming existing variables and functions to ensure
-    Tester functions correctly.
     """
 
     def __init__(self, row, col, gem_status):
