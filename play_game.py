@@ -6,8 +6,7 @@ from game_env import GameEnv
 """
 play_game.py
 
-Running this file launches an interactive game session. Becoming familiar with the game mechanics may be helpful in
-designing your solution.
+Running this file launches an interactive game session.
 
 The script takes 2 arguments:
 - input_filename, which must be a valid testcase file (e.g. one of the provided files in the testcases directory)
@@ -17,10 +16,6 @@ If an output filename is provided, the sequence of actions you perform will be s
 
 When prompted for an action, type one of the available action strings (e.g. wr, wl, etc) and press enter to perform the
 entered action.
-
-COMP3702 2021 Assignment 2 Support Code
-
-Last updated by njc 02/09/21
 """
 
 
